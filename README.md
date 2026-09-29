@@ -47,8 +47,8 @@ To evaluate out-of-distribution performance and boundary limits, the model was t
 
 | Case Description | Clinical Profile | Model Output Probability | Diagnostic Analysis |
 | :--- | :--- | :---: | :--- |
-| **78yo Male (Ethiopian Case Study)** | Single Atrium anomaly, CHF, AFib, Bifascicular Block, BP 150/75, HR 50 bpm | **`92.00%` (High Risk)** | **True Positive Match:** Correctly flags severe, end-stage cardiovascular failure in an elderly male profile. |
-| **44yo Female (NEJM Case)** | Acute COVID-19 Myopericarditis & Cardiogenic Shock (Normal Coronary Arteries) | **`24.17%` (Low CAD Risk)** | **Domain Boundary:** Model accurately reflects low chronic CAD probability despite acute viral inflammatory state. |
+| **78yo Male ** | Single Atrium anomaly, CHF, AFib, Bifascicular Block, BP 150/75, HR 50 bpm | **`92.00%` (High Risk)** | **True Positive Match:** Correctly flags severe, end-stage cardiovascular failure in an elderly male profile. |
+| **44yo Female** | Acute COVID-19 Myopericarditis & Cardiogenic Shock (Normal Coronary Arteries) | **`24.17%` (Low CAD Risk)** | **Domain Boundary:** Model accurately reflects low chronic CAD probability despite acute viral inflammatory state. |
 | **8.5yo Female (Case 4)** | Acute Rheumatic Fever, Mitral Regurgitation, Active GAS Culture | **`24.80%` (Low CAD Risk)** | Correctly differentiates pediatric autoimmune heart disease from adult ischemic heart disease. |
 
 ---
